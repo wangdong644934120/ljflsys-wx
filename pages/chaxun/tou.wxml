@@ -1,0 +1,19 @@
+<view class="table">
+    <view class="tr thead">
+      <view class="td">住户姓名</view>
+      <view class="td">身份证号</view>
+      <view class="td">地址</view>
+      <view class="td">投放垃圾类型</view>
+      <view class="td">抽检时间</view>
+    </view>
+    <block wx:for="{{list}}">
+      <view class="tr">
+        <view class="td">{{item.name}}</view>
+        <view class="td">{{item.idcard}}</view>
+        <view class="td">{{item.address}}</view>
+        <view class="td">{{item.type}}</view>
+        <view class="td">{{item.time}}</view>
+      </view>
+    </block>
+  </view>
+

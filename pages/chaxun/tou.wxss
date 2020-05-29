@@ -1,0 +1,28 @@
+/* pages/chaxun/tou.wxss */
+.table {
+  border: 1px solid #ccc;
+  font-size: 28rpx;
+  background: #fff;
+  border-right: none;
+  margin-top: 50px
+}
+ 
+.tr{
+  display: flex;
+  justify-content:initial;
+}
+ 
+.td {
+  text-align: center;
+  border: 1px solid #ccc;
+  display: inline-block;
+  border-left: none;
+  border-bottom: none;
+  width: 46%;
+}
+ 
+.thead .td{
+  border-top: none;
+  display: inline-block;
+  width: 46%;
+}
